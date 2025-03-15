@@ -6,7 +6,7 @@ const Part = (props) => {
     console.log('props en part:', props)
     return (
        <>
-        <p>{props.part.part} {props.part.exercises}</p>
+        <p>{props.part.name} {props.part.exercises}</p>
     </> 
     );
 }
